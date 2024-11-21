@@ -1,0 +1,41 @@
+name: lovify_flutter
+description: "An attempt to recreate my old project from native android to flutter, but still android only"
+publish_to: "none"
+version: 0.1.0
+
+environment:
+    sdk: ^3.5.3
+
+dependencies:
+    auto_size_text: ^3.0.0
+    cached_network_image: ^3.4.1
+    carousel_slider: ^5.0.0
+    dio: ^5.7.0
+    equatable: ^2.0.5
+    flutter:
+        sdk: flutter
+    flutter_bloc: ^8.1.6
+    flutter_cache_manager: ^3.4.1
+    flutter_image_compress: ^2.3.0
+    flutter_secure_storage: ^9.2.2
+    gap: ^3.0.1
+    go_router: ^14.6.0
+    http_parser: ^4.1.1
+    image_cropper: ^8.0.2
+    image_picker: ^1.1.2
+    mime: ^1.0.6
+    path: ^1.9.0
+    path_provider: ^2.1.4
+    rxdart: ^0.28.0
+    url_launcher: ^6.3.1
+
+dev_dependencies:
+    flutter_lints: ^4.0.0
+    flutter_test:
+        sdk: flutter
+
+flutter:
+    uses-material-design: true
+    assets:
+        - assets/images/
+        - assets/fonts/
